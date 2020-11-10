@@ -1,0 +1,26 @@
+*{margin:0;padding:0;box-sizing:border-box}.c10,.c2,.c2_long,.c2_short,.c3,.c3_long,.c3_short,.c4,.c5,.c6,.c7,.c8,.c9,a,div,h1,h2,h3,h4,h5,h6,nav,ol,p,span,ul{font-family:'Muli', sans-serif}h1,h2,h3,h4,h5,h6,nav ol li a,nav ul li a{color:#6f00ff}footer,header,main,section{width:100%}nav ul{list-style:none}nav ol li,nav ul li{display:inline-block;vertical-align:top}nav ol li a,nav ul li a{text-decoration:none;display:block}.c10,.c2,.c2_long,.c2_short,.c3,.c3_long,.c3_short,.c3_xlong,.c3_xshort,.c4,.c5,.c6,.c7,.c8,.c9{display:inline-block;margin-right:-4px;overflow:hidden;position:relative}.vtop{vertical-align:top}.vmiddle{vertical-align:middle}.vbottom{vertical-align:bottom}.txa_center{text-align:center}.txa_right{text-align:right}.txa_left{text-align:left}.txa_just{text-align:justify}.c2{width:50%}.c2_short{width:33.33%}.c2_long{width:66.66%}.c3{width:33.33%}.c3_short{width:25%}.c3_xshort{width:20%}.c3_long{width:50%}.c3_xlong{width:60%}.c4{width:25%}.c5{width:20%}.c6{width:16.66%}.c7{width:14.28%}.c8{width:12.5%}.c9{width:11.11%}.c10{width:10%}.padding-5{padding:5px}.padding-10{padding:10px}.padding-15{padding:15px}.padding-20{padding:20px}.padding-25{padding:25px}.padding-30{padding:30px}.padding-35{padding:35px}.padding-40{padding:40px}.padding-45{padding:45px}.padding-50{padding:50px}.cborder:nth-child(even){background-color:#CCC}.cborder:nth-child(odd){background-color:#000;color:#FFF}.padding-50{padding:50px}.cborder:nth-child(even){background-color:#CCC}.cborder:nth-child(odd){background-color:#000;color:#FFF}
+header{
+    margin-bottom: 30px;
+}
+ul li a {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+ul li a.here {
+    border-bottom: 2px solid #6f00ff;
+    padding-bottom: 8px;
+}
+h4#name {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    margin: 10px auto;
+    width: 45%;
+    font-size: 13px;
+    color: #565656;
+    font-weight: lighter;
+    background-color: #ececec;
+}

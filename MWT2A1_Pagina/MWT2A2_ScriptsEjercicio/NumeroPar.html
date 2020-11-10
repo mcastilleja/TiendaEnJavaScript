@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="Miguel Castilleja">
+    <meta name="autor" content="Miguel Castilleja, castilleja.miguel@gmail.com">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>e|Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="c3_xshort vmiddle"></div>
+        <div class="c3_xlong vmiddle txa_center">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="HolaMundo.html">Hola Mundo</a></li>
+                    <li><a href="Suma.html">Suma</a></li>
+                    <li><a href="NumeroPar.html" class="here">Numero Par</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="c3_xshort vmiddle"></div>
+    </header>
+    <main>
+        <h4 id="name"></h4>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+
+    var number = parseInt(prompt("Por favor escribe un número:", 2));
+    var tipo = number%2 ? "Impar" : "Par";
+    document.getElementById("name").innerHTML = "El número " + number + ", es " + tipo;
+
+    </script>
+    <script src="js/MensajeEnConsola.js"></script>
+</body>
+
+</html>
