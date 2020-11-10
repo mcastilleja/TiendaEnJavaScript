@@ -30,3 +30,12 @@ function showDate(){
 }
 
 showDate();
+
+function shopCart(n,e){
+  var name = n;
+  var p = e;
+  var a = parseInt(prompt("Ingresa la cantidad a comprar:"));
+  var cal = p * a;
+  alert("Vea la consola para ver su Carrito de Compra");
+  console.log("Carrito de Compra: \n\n Actualmente tiene " + a + " - " + "'" +name+ "'" + "\n y su total a pagar seria de: " + cal + ".00");
+}

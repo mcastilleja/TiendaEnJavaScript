@@ -2,6 +2,14 @@
 header{
     margin-bottom: 30px;
 }
+.txtlogo {
+    font-size: 30px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.txtlogo i{
+    font-weight: lighter;
+}
 ul li a {
     font-size: 12px;
     text-transform: uppercase;
@@ -11,6 +19,10 @@ ul li a {
 ul li a.here {
     border-bottom: 2px solid #6f00ff;
     padding-bottom: 8px;
+}
+h2 {
+    text-align: center;
+    margin: 40px auto;
 }
 h4#date {
     display: block;
@@ -23,4 +35,81 @@ h4#date {
     color: #565656;
     font-weight: lighter;
     background-color: #ececec;
+}
+.media {
+    width: 100%;
+    height: 332px;
+    background-repeat: no-repeat;
+    background-size: 256px;
+    background-position: 0;
+}
+.cp1 {
+    background-image: url(../img/cp1.jpg);
+}
+.cp2 {
+    background-image: url(../img/cp2.jpg);
+}
+.cp3 {
+    background-image: url(../img/cp3.jpg);
+}
+.cp4 {
+    background-image: url(../img/cp4.jpg);
+}
+.cp5 {
+    background-image: url(../img/cp5.jpg);
+}
+.sw1 {
+    background-image: url(../img/sw1.jpg);
+}
+.sw2 {
+    background-image: url(../img/sw2.jpg);
+}
+.sw3 {
+    background-image: url(../img/sw3.jpg);
+}
+.sw4 {
+    background-image: url(../img/sw4.jpg);
+}
+.sw5 {
+    background-image: url(../img/sw5.jpg);
+}
+.sw6 {
+    background-image: url(../img/sw6.jpg);
+}
+.sw7 {
+    background-image: url(../img/sw7.jpg);
+}
+.sw8 {
+    background-image: url(../img/sw8.jpg);
+}
+.hp1 {
+    background-image: url(../img/hp1.jpg);
+}
+.hp2 {
+    background-image: url(../img/hp2.jpg);
+}
+.pb1 {
+    background-image: url(../img/pb1.jpg);
+}
+.pb2 {
+    background-image: url(../img/pb2.jpg);
+}
+button.buy {
+    margin: 10px 0;
+    background: #6f00ff;
+    border: none;
+    padding: 7px 32px;
+    color: #FFF;
+    cursor: pointer;
+}
+span.money {
+    display: block;
+    font-size: 21px;
+    color: #7d7d7d;
+}
+span.min {
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2px;
 }
