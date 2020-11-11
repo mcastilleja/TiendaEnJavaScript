@@ -142,7 +142,7 @@ input[type="submit"] {
 textarea {
     height: 100px;
 }
-input[type="submit"] {
+input[type="submit"], input[type="button"] {
     display: block;
     margin: 50px auto;
     padding: 10px 45px;

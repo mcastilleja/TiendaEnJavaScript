@@ -25,57 +25,52 @@ var masProductos = ["Celular 2",
 
 
 console.log("\n\nActualmente en el arreglo existen " + productos.length + " productos");
-listaProductos(productos.length);
+listaProductos(productos.length, productos);
 
 var final = productos.push("PowerBank 2020");
 console.log("\n\nDespues del PUSH en el arreglo existen " + productos.length + " productos");
-listaProductos(productos.length);
+listaProductos(productos.length, productos);
 
 var inicio = productos.unshift("Celular 2020");
 console.log("\n\nDespues del UNSHIFT en el arreglo existen " + productos.length + " productos");
-listaProductos(productos.length);
+listaProductos(productos.length, productos);
 
 var eliminarF = productos.pop();
 console.log("\n\nDespues del POP en el arreglo existen " + productos.length + " productos y se elimino '" + eliminarF + "'");
-listaProductos(productos.length);
+listaProductos(productos.length, productos);
 
 var eliminarI = productos.shift();
 console.log("\n\nDespues del POP en el arreglo existen " + productos.length + " productos y se elimino '" + eliminarI + "'");
-listaProductos(productos.length);
+listaProductos(productos.length, productos);
 
 var sortear = productos.sort();
 console.log("\n\nSe han ordenado los productos con SORT");
-listaProductos(productos.length);
+listaProductos(productos.length, productos);
 
 var sortear = productos.reverse();
 console.log("\n\nSe ha invertido el orden con REVERSE");
-listaProductos(productos.length);
+listaProductos(productos.length, productos);
 
 var copiaArray = productos.slice();
 console.log("\n\nSe ha copiado el arreglo con SLICE");
 
-
 var borrarElemento = copiaArray.splice(5)
 console.log("\n\nSe ha eliminado elementos con SPLICE a copia de array");
-console.log( "\nActualmente esta es la lista de productos:");
-for(i=0; i <= (copiaArray.length -1); i++){
-    console.log((i+1) + ".- " + copiaArray[i]);
-}
+listaProductos(copiaArray.length, copiaArray);
 
 var arreglo = productos.concat(masProductos);
-console.log("\n\n Se ha concatenado el Arreglo de productos y masProductos y este es el arreglo \n\n");
-for(i=0; i <= (arreglo.length -1); i++){
-    console.log((i+1) + ".- " + arreglo[i]);
-}
+console.log("\n\n Se ha concatenado el Arreglo de productos y masProductos y este es el arreglo");
+listaProductos(arreglo.length, arreglo);
 
 
 
 
 
-function listaProductos(p){
-    var lista = p-1;
+function listaProductos(p, l){
+    var lista = p;
+    var name = l;
     console.log( "\nActualmente esta es la lista de productos:");
-    for(i=0; i <= lista; i++){
-        console.log((i+1) + ".- " + productos[i]);
+    for(i=0; i < lista; i++){
+        console.log((i+1) + ".- " + name[i]);
     }
 }
